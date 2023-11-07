@@ -1,0 +1,46 @@
+<h1 class="heading">Raw Materials</h1>
+<mat-grid-list cols="2" rowHeight="2:1" > 
+    <mat-grid-tile class="grid-tile " >
+      <div class="grid-content "[class.mat-elevation-z2]="!isActive1" [class.mat-elevation-z8]="isActive1"
+      (mouseenter)="isActive1 = true" (mouseleave)="isActive1 = false" (click)="classicpage()" >
+        <img src="assets/images/classic.png" alt="Classic Product Image">
+        <div class="product-name">Classic</div>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile class="grid-tile" >
+      <div class="grid-content "[class.mat-elevation-z2]="!isActive2" [class.mat-elevation-z8]="isActive2"
+      (mouseenter)="isActive2 = true" (mouseleave)="isActive2 = false">
+        <img src="assets/images/classichd.png" alt="Classic HD Product Image">
+        <div class="product-name">Classic HD</div>
+      </div>
+    </mat-grid-tile>
+    <mat-grid-tile class="grid-tile " >
+        <div class="grid-content "[class.mat-elevation-z2]="!isActive3" [class.mat-elevation-z8]="isActive3"
+        (mouseenter)="isActive3 = true" (mouseleave)="isActive3 = false">
+          <img src="assets/images/classic6-4.png" alt="Classic6-4 Product Image">
+          <div class="product-name">Classic 6-4</div>
+        </div>
+      </mat-grid-tile>
+      <mat-grid-tile class="grid-tile " >
+        <div class="grid-content "[class.mat-elevation-z2]="!isActive4" [class.mat-elevation-z8]="isActive4"
+        (mouseenter)="isActive4 = true" (mouseleave)="isActive4 = false">
+          <img src="assets/images/neo.png" alt="Classic HD Product Image">
+          <div class="product-name">Neo</div>
+        </div>
+      </mat-grid-tile>
+      <mat-grid-tile class="grid-tile " >
+        <div class="grid-content "[class.mat-elevation-z2]="!isActive5" [class.mat-elevation-z8]="isActive5"
+        (mouseenter)="isActive5 = true" (mouseleave)="isActive5 = false">
+          <img src="assets/images/flora.png" alt="Classic HD Product Image">
+          <div class="product-name">Flora</div>
+        </div>
+      </mat-grid-tile>
+      <mat-grid-tile class="grid-tile " >
+        <div class="grid-content "[class.mat-elevation-z2]="!isActive6" [class.mat-elevation-z8]="isActive6"
+        (mouseenter)="isActive6 = true" (mouseleave)="isActive6 = false">
+          <img src="assets/images/aberro.png" alt="Classic HD Product Image">
+          <div class="product-name">Aberro</div>
+        </div>
+      </mat-grid-tile>
+  </mat-grid-list>
+  

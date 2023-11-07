@@ -1,0 +1,10 @@
+<mat-grid-list cols="2" rowHeight="2:0.5" class="grid-list">
+    <mat-grid-tile *ngFor="let Bin of Bins" class="grid-tile mat-elevation-z2" (click)="navigateToBinPage(Bin.id)">
+      <mat-card class="rack-card">
+        <mat-card-content>
+          <h2>{{ Bin.name }}</h2>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+  

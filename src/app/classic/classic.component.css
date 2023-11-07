@@ -1,0 +1,20 @@
+
+  
+  
+  .rack-card {
+    width: 200px; 
+    height: 100px; 
+    border: 0.5px solid #000000;
+    transition: background-color 0.3s;
+    background-color:rgb(181, 233, 250);
+    text-align: center;
+    cursor: pointer;
+    
+     
+  }
+  
+  .grid-tile:hover .rack-card {
+    background-color: rgb(119, 224, 236);
+    box-shadow: 10px 10px;
+  }
+  

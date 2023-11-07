@@ -1,0 +1,45 @@
+.grid-tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid #ccc; */
+    /* background-color: rgb(180, 227, 245); */
+    border-radius: 15px;
+    
+  }
+
+ *{
+  overflow-y: hidden;
+ }
+
+  .grid-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+   
+    
+  }
+  
+  .product-name {
+    font-size: 1.2em;
+    color: #000; /* Change the text color as needed */
+    margin-top: 10px; /* Adjust the spacing between the image and the text */
+    transition: color 0.3s; 
+  }
+  
+  .product-name:hover {
+    color: #28c0f3; /* Change the text color on hover to your desired color */
+  }
+  
+  .product-name:focus {
+    outline: none; /* Remove the default focus outline */
+  }
+  
+  .heading{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-decoration: underline;
+  }

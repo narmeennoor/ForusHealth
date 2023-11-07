@@ -1,0 +1,38 @@
+.grid-tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none; /* Prevent text selection on the grid-tile */
+    background-color:rgb(181, 233, 250);
+    margin: 0;
+    padding: 0;
+    border-radius: 5px;
+    
+  }
+  
+  .grid-button {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    color: #000000; /* Change the text color as needed */
+    transition: color 0.3s; /* Optional: add a transition effect on color change */
+    padding-top: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    
+  }
+  
+  .grid-button:hover {
+    color: #28c0f3; /* Change the text color on hover to red or your desired color */
+  }
+  
+  .grid-button:focus {
+    outline: none; /* Remove the default focus outline */
+  }
+
+  .grid-tile-container {
+    margin: 10px; /* Adjust the margin as needed to control the gap */
+  }
+ 

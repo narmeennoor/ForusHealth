@@ -1,0 +1,11 @@
+<mat-grid-list cols="2" rowHeight="1.5:0.5" class="grid-list">
+    <mat-grid-tile *ngFor="let shelf1 of shelfs1" class="grid-tile mat-elevation-z2" (click)="navigateToShelfPage(shelf1.id)">
+
+      <mat-card class="rack-card">
+        <mat-card-content>
+          <h2>{{ shelf1.name }}</h2>
+        </mat-card-content>
+      </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+  

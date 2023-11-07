@@ -1,0 +1,15 @@
+
+  <mat-grid-list cols="2" rowHeight="2:1">
+    <mat-grid-tile class="grid-tile" (click)="rawmaterial()" [class.mat-elevation-z2]="!isActiveRaw" [class.mat-elevation-z10]="isActiveRaw"
+      (mouseenter)="isActiveRaw = true" (mouseleave)="isActiveRaw = false">
+      <div class="grid-button">Forus Health <br><br><br>Raw Materials</div>
+    </mat-grid-tile>
+    <mat-grid-tile class="grid-tile" (click)="finishedgoods()" [class.mat-elevation-z2]="!isActiveFinished" [class.mat-elevation-z10]="isActiveFinished"
+      (mouseenter)="isActiveFinished = true" (mouseleave)="isActiveFinished = false">
+      <div class="grid-button">Forus Health <br><br><br>Finished Goods</div>
+    </mat-grid-tile>
+  </mat-grid-list>
+
+ 
+  
+  
